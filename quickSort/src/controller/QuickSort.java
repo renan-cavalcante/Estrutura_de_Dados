@@ -39,6 +39,6 @@ public class QuickSort {
 	private static void trocar(int[] vetor, int i, int j) {
 		int aux = vetor[i];
 		vetor[i] = vetor[j];
-		vetor[i] = aux;
+		vetor[j] = aux;
 	}
 }
