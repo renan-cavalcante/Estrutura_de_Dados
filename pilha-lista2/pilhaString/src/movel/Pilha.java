@@ -7,7 +7,7 @@ public class Pilha {
 		topo = null;
 	}
 	
-	public void push(int valor) {
+	public void push(String valor) {
 		No no = new No(valor, topo);
 		topo = no;
 	}
@@ -16,9 +16,9 @@ public class Pilha {
 		return topo == null;
 	}
 	
-	public int pop() throws Exception {
+	public String pop() throws Exception {
 		if(!isEmpty()) {
-			int dado = topo.dado;
+			String dado = topo.dado;
 			topo = topo.no;
 			return dado;
 		}
@@ -40,9 +40,9 @@ public class Pilha {
 		return tamanho;
 	}
 	
-	public int top() throws Exception {
+	public String top() throws Exception {
 		if(!isEmpty()) {
-			int dado = topo.dado;
+			String dado = topo.dado;
 			return dado;
 		}
 		
