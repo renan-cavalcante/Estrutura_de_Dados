@@ -5,7 +5,7 @@ import java.util.List;
 
 import com.libsrenan.ordenacao.order;
 
-public class Program {
+public class Program2 {
 
 	public static void main(String[] args) {
 		Integer[] vetor1 = { 74, 20, 74, 87, 81, 16, 25, 99, 44, 58 };
@@ -51,10 +51,6 @@ public class Program {
 		for (Integer i : lista2) {
 			System.out.print(i + ", ");
 		}
-		
-		
-		
-
 	}
 
 }

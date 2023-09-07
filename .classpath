@@ -1,24 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="src" path="ordenacaolista1/src"/>
-	<classpathentry kind="src" path="quickSort/src"/>
-	<classpathentry kind="src" path="Recursividade1/exercicio1/src"/>
-	<classpathentry kind="src" path="Recursividade1/exercicio2/src"/>
-	<classpathentry kind="src" path="Recursividade1/exercicio3/src"/>
-	<classpathentry kind="src" path="Recursividade1/exercicio4/src"/>
-	<classpathentry kind="src" path="Recursividade1/exercicio5/src"/>
-	<classpathentry kind="src" path="Recursividade2/exercicio1/src"/>
-	<classpathentry kind="src" path="Recursividade2/exercicio2/src"/>
-	<classpathentry kind="src" path="Recursividade2/exercicio3/src"/>
-	<classpathentry kind="src" path="Recursividade2/exercicio4/src"/>
-	<classpathentry kind="src" path="Recursividade2/exercicio5/src"/>
-	<classpathentry kind="src" path="Recursividade3/Exercicio1/src"/>
-	<classpathentry kind="src" path="Recursividade3/Exercicio2/src"/>
-	<classpathentry kind="src" path="Recursividade3/Exercicio3/src"/>
-	<classpathentry kind="src" path="Recursividade3/Exercicio4/src"/>
-	<classpathentry kind="src" path="Recursividade3/Exercicio5/src"/>
-	<classpathentry kind="src" path="Recursividade3/Exercicio6/src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="ordenacaolista1/libs/ordenacao.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/exercicio2">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/exercicio3">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/exercicio4">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/exercicio5">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/Exercicio6">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/quickSort">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="Recursividade1/exercicio1/bin"/>
 </classpath>
