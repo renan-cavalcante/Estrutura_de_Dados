@@ -7,6 +7,10 @@ public class Pilha {
 		topo = null;
 	}
 	
+	public Pilha(No topo) {
+		this.topo = topo;
+	}
+	
 	public void push(int valor) {
 		No no = new No(valor, topo);
 		topo = no;
@@ -47,6 +51,10 @@ public class Pilha {
 		}
 		
 		throw new Exception("Pilha vazia");
+	}
+	
+	public Pilha clonar() {
+		return new Pilha(topo);
 	}
 
 }
